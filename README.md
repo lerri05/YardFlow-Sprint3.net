@@ -63,6 +63,20 @@ Clone o repositório:
 
 ```bash
 git clone https://github.com/lerri05/ChallengeYardFlow.git
+cd ChallengeYardFlow
+
+Configure o arquivo appsettings.json com sua string de conexão Oracle:
+"ConnectionStrings": {
+  "DefaultConnection": "User Id=seu_usuario;Password=sua_senha;Data Source=seu_servidor"
+}
+
+Aplique as migrações:
+
+dotnet ef database update
+
+🏃 Execução
+
+dotnet run
 
 
 
