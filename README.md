@@ -92,7 +92,6 @@ use devforgedb;
 
 show tables;
 
-select * from Motos;
 
 
 📘 Documentação da API
