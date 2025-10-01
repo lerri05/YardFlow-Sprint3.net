@@ -63,17 +63,9 @@ Clone o repositório:
 
 ```bash
 git clone https://github.com/lerri05/ChallengeYardFlow.git
-cd ChallengeYardFlow
 
-Configure a string de conexão no arquivo appsettings.json:
+cd ChallengeYardFlow3_/ChallengeYardFlow/ChallengeYardFlow
 
-"ConnectionStrings": {
-  "DefaultConnection": "User Id=seu_usuario;Password=sua_senha;Data Source=seu_servidor"
-}
-
-Aplique as migrações:
-
-dotnet ef database update
 
 🏃 Execução
 
